@@ -9,7 +9,7 @@ terraform {
     bucket         = "mernmani"
     region         = "ap-south-1"
     key            = "eks/terraform.tfstate"
-    dynamodb_table = "Lock-Files"
+    dynamodb_table = "mern"
     encrypt        = true
   }
 }
